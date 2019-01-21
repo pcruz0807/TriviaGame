@@ -66,7 +66,7 @@ $(document).ready(function () {
         function createQuestion(questions) {
             for (var i = 0; i < questions.length; i++) {
                 $(".start").hide();
-                $("#questions").append('<form id="' + i + '" class="center-text"><p>Question ' + (i + 1) + ' of ' + questions.length + '<br></p><h3 class="question">' + questions[i].q + '</h3><br>' + radioButtons(questions[i].s, i) + ' <br> <button type="submit" class="next">NEXT;</button><br></p></form>');
+                $("#questions").append('<form id="' + i + '" class="center-text"><p>Question ' + (i + 1) + ' of ' + questions.length + '<br></p><h3 class="question">' + questions[i].q + '</h3><br>' + radioButtons(questions[i].s, i) + ' <br> <button type="submit" class="next">NEXT;</button><br></p><br></form>');
             }
             
             for (var k = questions.length - 1; k > 0; k--) {

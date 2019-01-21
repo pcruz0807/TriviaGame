@@ -30,3 +30,32 @@
      display: inline-block;
     font-size: 16px;  
     }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        text-align: center;
+     }
+     
+     .footer:link {
+       color: red;
+     }
+     
+     /* visited link */
+     .footer:visited {
+       color: green;
+     }
+     
+     /* mouse over link */
+     .footer:hover {
+       color: hotpink;
+     }
+     
+     /* selected link */
+     .footer:active {
+       color: blue;
+     }
+     
